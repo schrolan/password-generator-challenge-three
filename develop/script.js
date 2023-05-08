@@ -10,7 +10,13 @@ var upperCaseChoice = true
 var numbersChoice = true
 var specialCharsChoice = true
 //choose length
-
+function selectLength () {
+  var length = 0
+  while (length < 8 || length > 128) {
+    length = prompt("Please select a length between 8 and 128 characters")
+  }
+  
+}
 //put them together
 
 
